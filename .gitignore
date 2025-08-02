@@ -1,0 +1,14 @@
+/target
+*.exe
+*.dll
+*.so
+*.dylib
+*.wasm
+*.pdb
+
+tmp/
+temp/
+*.tmp.*
+tmp.*
+.trash/
+.deleted/
