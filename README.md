@@ -25,5 +25,6 @@ cargo run
 - [教科书（英文）](https://doc.rust-lang.org/book/)
 - [示例合集 （英文）](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 - [标准库文档（英文）](https://doc.rust-lang.org/std/index.html)
+- [语法参考](https://doc.rust-lang.org/reference/introduction.html)
 - [其他资源](https://doc.rust-lang.org/stable/)
 - [rust-lang.org](https://www.rust-lang.org/)
