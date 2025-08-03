@@ -4,6 +4,7 @@
 mod s04_ownership;
 mod s05_references;
 mod s06_slices;
+mod s07_structs;
 
 fn main() {
     println!("Hello, world!");
@@ -13,4 +14,5 @@ fn main() {
     s04_ownership::main();
     s05_references::main();
     s06_slices::main();
+    s07_structs::main();
 }
