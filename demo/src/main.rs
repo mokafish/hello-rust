@@ -6,7 +6,7 @@
 // mod s06_slices;
 // mod s07_structs;
 mod s08_enums;
-mod s13_closures;
+// mod s13_closures;
 
 fn main() {
     println!("Hello, world!");
@@ -18,5 +18,5 @@ fn main() {
     // s06_slices::main();
     // s07_structs::main();
     s08_enums::main();
-    s13_closures::main();
+    // s13_closures::main();
 }
