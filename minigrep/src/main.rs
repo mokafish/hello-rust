@@ -5,10 +5,8 @@ use minigrep::Config;
 use minigrep::run;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
-
-    let config = Config::build(&args).unwrap_or_else(|err| {
-        eprintln!("解析参数时遇到问题：{err}");
+    let config = Config::build(env::args()).unwrap_or_else(|err| {
+        eprintln! ("解析参数时遇到问题：{err}");
         process::exit(1);
     });
 
