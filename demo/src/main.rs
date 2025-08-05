@@ -1,12 +1,18 @@
+// #[allow(unused)]
+// #[allow(dead_code)]
+// #[allow(unused_imports)]
+
 // mod s01_data_type;
 // mod s02_function;
 // mod s03_control_flow;
-// mod s04_ownership; 
+// mod s04_ownership;
 // mod s05_references;
 // mod s06_slices;
 // mod s07_structs;
-mod s08_enums;
+// mod s08_enums;
 // mod s13_closures;
+mod s16_threads;
+
 
 fn main() {
     println!("Hello, world!");
@@ -17,6 +23,7 @@ fn main() {
     // s05_references::main();
     // s06_slices::main();
     // s07_structs::main();
-    s08_enums::main();
+    // s08_enums::main();
     // s13_closures::main();
+    s16_threads::main();
 }
